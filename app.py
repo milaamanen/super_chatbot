@@ -41,7 +41,7 @@ def chat():
         print("RemoteProtocolError")
         conversation = []
         conversation.append(system_prompt)
-        reply = "Blocked by FW"
+        reply = "Blocked by Prisma AIRS"
     else:
         reply = response.choices[0].message.content
 
